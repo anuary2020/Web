@@ -4,21 +4,24 @@
     <head>
         <title>FORM</title>
         <style>
-            form {background-color:powderblue;
+        h1, #note {text-align:center; font-family:fantasy;}
+            form {background-color:#c9e4ff;
           margin:auto;
-            width:800px;
+            width:525px;
+            padding:20px
             }
-          body {background-image:url(3.jpg);
-          background-repeat: no-repeat;
-        background-position:center;
-      background-attachment:fixed;
-    background-size:cover;
-            background-color:fuchsia;
+          body {background-color:fuchsia;
           }
 
         </style>
     </head>
      <body>
+       <div>
+         <h1>REGISTRATION</h1>
+         <p id=note>
+           <strong>TAFADHARI:</strong>Jaza Taarifa zilizo sahahihi
+         </p>
+       </div>
 
        <form>
         <label for="fname"><b>First name</b>:</label>
@@ -27,7 +30,48 @@
         <input type="text" id="lname" name="lname"><br><br>
         <label for="email"><b>Email</b>:</label>
         <input type="email" placeholder="email@example.com" id="email" name="email"><br><br>
+        <label for="pwd"><b>Password</b>:</label>
+        <input type="password" id="pwd" placeholder="Enter password" name="pwd">
+        <input type="password" id="pwd" placeholder="Confirm password" name="pwd"><br><br>
 
+
+        <b>Country:</b>&ensp;
+        <select name="country">
+        <option value="country">Country</option>
+        <option value="tanzania">Tanzania</option>
+        <option value="kenya">Kenya</option>
+        <option value="uganda">Uganda</option>
+        <option value="rwanda">Rwanda</option>
+        <option value="burundi">Burundi</option>
+        <option value="malawi">Malawi</option>
+        </select>
+
+        &ensp;&ensp;&ensp;&ensp;
+        <select name="city">
+        <option value="city">City</option>
+        <option value="dar es salaam">Dar es salaam</option>
+        <option value="arusha">Arusha</option>
+      </select><br><br>
+
+
+
+
+        <b>Job</b>
+        <select name="job">
+          <option value="job">Job</option>
+          <option value="viungo">Viungo</option>
+          <option value="urembo">Urembo</option>
+          <option value="mitindo">Mitindo</option>
+          <option value="vipodozi">Vipodozi</option>
+          <option value="mapambo">Mapambo</option>
+          <option value="fenicha">Fenicha</option>
+          <option value="chakula">Chakula</option>
+          <option value="other">Other</option>
+        </select><br><br>
+
+
+
+         <b>Date of Birth:</b>&ensp;
         <select name ="month">
           <option value ="month">Month</option>
           <option value="january">January</option>
@@ -43,6 +87,8 @@
           <option value="november">November</option>
           <option value="december">December</option>
         </select>
+
+
 
         <select name="days">
           <option value="day">Day</option>
@@ -137,7 +183,15 @@
           <option value="1952">1952</option>
           <option value="1951">1951</option>
           <option value="1950">1950</option>
-        </select>
+        </select><br><br>
+
+        <b>Gender</b><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female"
+        <label for="female">Female</label><br>
+
+
        </form>
      </body>
 </html>
