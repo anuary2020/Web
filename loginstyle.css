@@ -1,0 +1,29 @@
+h1 {color:blue;
+  margin:0 0 30px;
+text-align:center;}
+
+body {background-image:url(landscape.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+margin:0;
+padding:0;}
+
+
+.box{
+background-color:rgba(0,0,0,0.5);
+font-family:sans-serif;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+border-radius:20px;
+width:400px;
+padding:40px;}
+
+.inputbox{color:#cc00ff;
+font-family:sans-serif;
+width:300px;
+height:350;
+border-radius:45;
+
+}
