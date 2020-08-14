@@ -5,6 +5,9 @@ background-repeat:no-repeat;
 margin:0;
 padding:0;}
 
+a {color:green;
+text-decoration:underline blue;}
+a:hover{color:blue;}
 
 .box{
 background-color:rgba(0,0,0,0.5);
@@ -22,7 +25,8 @@ box-sizing:border-box;}
 .box h1 {color:blue;
   margin:0 0 30px;
   padding:0;
-text-align:center;}
+text-align:center;
+text-decoration:underline pink;}
 
 
 
@@ -40,4 +44,16 @@ text-align:center;}
 
 .box .inputbox label {
   color:#fff;
+}
+
+#new {color:#fff}
+
+#sub input:hover{background-color:blue;}
+
+#sub input {width:100px;
+padding:5px;
+border-radius:10px;
+font-weight:bold;
+background-color:pink;
+margin-left:100px;
 }
