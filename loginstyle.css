@@ -9,6 +9,9 @@ a {color:green;
 text-decoration:underline blue;}
 a:hover{color:blue;}
 
+.box:hover{width:310px;
+padding:45px;
+transition-duration:1s;}
 .box{
 background-color:rgba(0,0,0,0.5);
 font-family:sans-serif;
@@ -48,7 +51,8 @@ text-decoration:underline pink;}
 
 #new {color:#fff}
 
-#sub input:hover{background-color:blue;}
+#sub input:hover{background-color:blue;
+transition-duration:1s;}
 
 #sub input {width:100px;
 padding:5px;
