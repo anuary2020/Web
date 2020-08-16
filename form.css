@@ -7,14 +7,18 @@ font-weight:bold;}
 
 a {color:green;
   text-decoration:underline blue;}
-  
+
 a:hover{color:blue;}
 
 #sub:hover{
-background-color:blue;}
+background-color:blue;
+transition-duration:1s;}
 
 
 h1, #note {text-align:center; font-family:sans-serif;}
+    form:hover{width:335px;
+    height:535px;
+  transition-duration:1s;}
     form {background:rgba(0, 0, 0, 0.5);
       font-family:sans-serif;
       color: 	#fff;
@@ -23,6 +27,7 @@ h1, #note {text-align:center; font-family:sans-serif;}
     padding:40px;
     height:530px;
     border-radius:50px;
+    box-shadow:10px 5px 20px rgb(0, 0, 0, 1);
 
     }
 
