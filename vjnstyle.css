@@ -1,0 +1,19 @@
+a {color:green;font-weight:bold;
+text-decoration:;
+border:2px solid yellow;
+padding:5px;
+width:55px;
+border-radius:10px;
+position:absolute;
+top:15px;
+right:20px;}
+
+a:hover{color:blue;}
+
+h1{color:yellow;
+text-align:center;
+text-decoration:underline silver;}
+
+body{background-image:url(milky.jpg);
+background-size:cover;
+background-repeat:no-repeat;}
