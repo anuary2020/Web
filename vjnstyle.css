@@ -1,3 +1,7 @@
+a:hover{color:blue;
+width:65px;
+padding:8px;
+transition-duration:1s;}
 a {color:green;font-weight:bold;
 text-decoration:;
 border:2px solid yellow;
@@ -6,18 +10,28 @@ width:55px;
 border-radius:10px;
 position:absolute;
 top:15px;
-right:20px;}
+right:25px;}
 
-a:hover{color:blue;}
 
+
+
+img:hover{width:350px;
+border:1px solid blue;}
 img {width:300px;
 border-radius:100%;
 position:absolute;
 top:60px;
 left:40%;
 border:1px solid yellow;
+transition-duration:1s;
+box-shadow:10px 5px 5px rgb(0, 0, 0, 0.5);
+opacity:0.5;
 }
 
+h1:hover{transition-duration:2s;
+color:blue;
+font-weight:50px;
+font-size:35px;}
 h1{color:yellow;
   font-family:sans-serif;
 text-align:center;
