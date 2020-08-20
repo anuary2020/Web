@@ -1,3 +1,8 @@
+#test {color:yellow;
+margin-top:200px;
+font-size:30px;}
+
+
 a:hover{color:blue;
 width:65px;
 padding:8px;
@@ -17,7 +22,7 @@ right:25px;}
 
 img:hover{width:350px;
 border:1px solid blue;}
-img {width:300px;
+img {width:250px;
 border-radius:100%;
 position:absolute;
 top:60px;
