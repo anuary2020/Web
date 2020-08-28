@@ -1,20 +1,18 @@
-#bot {position:absolute; top:50px; left:80px;}
-.bott {border-radius:5px;
-  border:1px solid blue;color:yellow;padding:10px;
+#bot {position:absolute;left:25px;top:25px}
 
-}
-
+.bott:hover{background:navy; font-weight:bold;}
+.bott  { border:2px solid blue; border-radius:5px; color:yellow; padding:10px; width:50px; margin-top:50px; margin-left:10px;background:purple;}
 
 #test {color:yellow;
 margin-top:200px;
 font-size:30px;}
 
 
-a:hover{color:blue;
+#log:hover{color:blue;
 width:65px;
 padding:8px;
 transition-duration:1s;}
-a {color:green;font-weight:bold;
+#log {color:green;font-weight:bold;
 text-decoration:;
 border:2px solid yellow;
 padding:5px;
@@ -22,7 +20,8 @@ width:55px;
 border-radius:10px;
 position:absolute;
 top:15px;
-right:25px;}
+right:25px;
+background:lime}
 
 
 
