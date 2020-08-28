@@ -1,3 +1,10 @@
+#bot {position:absolute; top:50px; left:80px;}
+.bott {border-radius:5px;
+  border:1px solid blue;color:yellow;padding:10px;
+
+}
+
+
 #test {color:yellow;
 margin-top:200px;
 font-size:30px;}
@@ -20,12 +27,12 @@ right:25px;}
 
 
 
-img:hover{width:350px;
-border:1px solid blue;}
+img:hover{
+border:2px solid blue;}
 img {width:250px;
 border-radius:100%;
 position:absolute;
-top:60px;
+top:80px;
 left:40%;
 border:1px solid yellow;
 transition-duration:1s;
