@@ -1,7 +1,9 @@
-#bot {position:absolute;left:25px;top:25px}
-
+#bot {list-style-type:none;position:absolute;left:0px;top:15px;}
 .bott:hover{background:navy; font-weight:bold;}
-.bott  { border:2px solid blue; border-radius:5px; color:yellow; padding:10px; width:50px; margin-top:50px; margin-left:10px;background:purple;}
+.bott {text-decoration:none;border:2px solid blue; border-radius:5px; color:yellow; padding:10px; width:50px; margin-top:50px; margin-left:10px;background:purple;}
+li{float:left;}
+
+
 
 #test {color:yellow;
 margin-top:200px;
