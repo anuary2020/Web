@@ -8,8 +8,7 @@ font-size:30px;}
 
 
 #log:hover{color:blue;
-width:65px;
-padding:8px;
+transform:scale(1.1);
 transition-duration:1s;}
 #log {color:green;font-weight:bold;
 text-decoration:;
@@ -25,9 +24,9 @@ background:lime}
 
 
 
-img:hover{
-border:2px solid blue;}
-img {width:250px;
+.hand img:hover{
+border:2px solid yellow; filter:grayscale(1.1)}
+.hand img {width:250px;
 border-radius:100%;
 position:absolute;
 top:80px;
@@ -38,10 +37,7 @@ box-shadow:10px 5px 5px rgb(0, 0, 0, 0.5);
 opacity:0.5;
 }
 
-h1:hover{transition-duration:2s;
-color:blue;
-font-weight:50px;
-font-size:35px;}
+h1:hover{transition-duration:2s;color:blue;transform:scale(1.2);}
 h1{color:yellow;
   font-family:sans-serif;
 text-align:center;
