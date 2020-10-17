@@ -9,9 +9,8 @@ a {color:green;
 text-decoration:underline blue;font-weight:bold;}
 a:hover{color:blue;}
 
-.box:hover{width:310px;
-padding:45px;
-transition-duration:1s;
+.box:hover{width:305px;
+padding:45px; border-radius:30px;
 transition-timing-function:ease-out;
 transition-delay:1s;}
 .box{
